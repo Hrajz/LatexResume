@@ -1,0 +1,265 @@
+%-------------------------
+% Resume in Latex
+% Author : AlgoUniversity
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\usepackage[dvipsnames]{xcolor}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+\setlength{\parindent}{0pt}
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{0.3in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+\definecolor{mypink1}{RGB}{22,0,175}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\color{mypink1}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{mypink1}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\classesList}[4]{
+    \item\small{
+        {#1 #2 #3 #4 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textbf{\small #2}\\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+\begin{center}
+  
+  {\Huge \scshape Himanshu Kumar} \\ \vspace{4.3pt}
+  \small \raisebox{-0.1\height}\faPhone\ +91 7061610850~ 
+  \small \raisebox{-0.1\height}\faMapMarker \ Noida~ 
+  \href{mailto:hrajz.work@gmail.com}{\raisebox{-0.2\height}\faEnvelope\  \underline{hrajz.work@gmail.com}} ~
+  \href{https://www.linkedin.com/in/hrajz}{\raisebox{-0.2\height}\faLinkedin\ \underline{LinkedIn}}  ~
+  \href{https://github.com/hrajz}{\raisebox{-0.2\height}\faGithub\ \underline{Github}}
+  \href{https://leetcode.com/u/hrajz/}{\raisebox{-0.2\height}\faBug\ \underline{Leetcode}}
+  \vspace{-8pt}
+\end{center}
+
+\vspace{-10pt}
+%-----------EDUCATION-----------
+\section{Education}
+\resumeSubHeadingListStart
+\resumeSubheading
+{KCC institute of technology and management - Greater Noida}{2021 - 2025}{Bachelor of Technology in Computer Science \& Engineering}{7.5/10 CGPA}
+
+{ \vspace{0pt}  \underline{\textit{Relevant Coursework}}: OOPS, Databases, Discrete Math, DSA, OS, Computer Networks, AI, Machine learning.
+}
+\vspace{-1pt}
+\resumeSubheading
+{St.Joseph public school (STD: XII) }{2018 - 2020}{Science and Mathematics  }{8.9/10}
+\resumeSubHeadingListEnd
+\vspace{-13pt}
+
+
+
+% -----------EXPERIENCE-----------
+\section{Internship Experience}
+\resumeSubHeadingListStart
+
+\resumeSubheading
+{Veritech Softwares}{May 2024 - June 2024 }
+{ Web Developer Intern | Remote
+}{}
+\resumeItemListStart
+\resumeItem{  Focused on front-end development for various web application projects, enhancing user experience and interface design.
+  }
+\resumeItem{Implemented asynchronous programming with AJAX and Fetch API to interact with RESTful web services, enhancing user experience with real-time data updates.
+}
+\resumeItemListEnd
+\resumeSubHeadingListEnd
+\vspace{-17pt}
+
+
+
+%-----------PROJECTS-----------
+\section{Projects}
+
+\resumeSubHeadingListStart
+\resumeProjectHeading{\textbf{\vspace{20pt}Driving Lesson Booking System}}{  June 2024 - July 2024 }
+
+{\vspace{-22pt}
+\textit{A Flutter mobile application enabling users to book driving lessons with driving instructors on an hourly basis, Users can register either as drivers (instructors) or customers (learners).}}
+\resumeItemListStart
+\resumeItem{\vspace{-7pt}Implemented user registration and authentication flow, allowing users to sign up as either drivers or customers.
+}
+\resumeItem{Integrated Google Maps API to facilitate location-based services and real-time tracking of lessons.
+}
+\resumeItem{Utilized Firebase Firestore for efficient data storage and retrieval, managing user profiles, bookings, and lesson details.
+}
+\resumeItem{ Implemented payment processing using API to handle secure transactions between customers and drivers.
+}
+\resumeItem{Technologies used:  Flutter, Dart, Firestore, Google Maps API, Payment API.
+}
+\resumeItemListEnd
+\vspace{-18pt}
+
+\resumeSubHeadingListEnd
+
+
+\resumeSubHeadingListStart
+\resumeProjectHeading{\textbf{Multilingual Real-Time Chat Application }}{   May 2024 - June 2024  }
+
+{\vspace{-10pt}\textit{A real-time chat application enabling users to communicate in different languages by automatically translating messages.}}
+
+\resumeItemListStart
+\resumeItem{\vspace{-7pt}Integrated Socket.io to facilitate real-time, bidirectional communication between users.
+
+}
+\resumeItem{Set up a Node.js server with Express.js to handle backend logic and API endpoints. And utilized Google Cloud Translation API for instant message translation between multiple languages.
+
+}
+\resumeItem{Employed MongoDB for storing user information and message history securely. And implemented user authentication to ensure 
+secure access.
+
+}
+\resumeItem{ Technologies used:  Node.js, Express.js,Socket.io,REST API,MongoDB, Authentication
+}
+\resumeItemListEnd
+\vspace{-16pt}
+
+\resumeSubHeadingListEnd
+
+\resumeSubHeadingListStart
+\resumeProjectHeading{\textbf{Ingredient-Based Recipe Finder}}{   Feb 2024 - Mar 2024  }
+
+{\vspace{-10pt}\textit{An application that allows users to input available ingredients and displays all possible recipes using web scraping techniques to gather data from various cooking websites.}}
+\resumeItemListStart
+\resumeItem{\vspace{-7pt} Utilized Scrapy.py for web scraping to collect and parse recipe data from multiple cooking websites.
+
+}
+\resumeItem{Developed a backend service using Node.js and Express.js to handle user inputs and manage web scraping tasks.
+}
+\resumeItem{Integrated error handling and data validation to ensure reliable and accurate recipe suggestions.
+}
+\resumeItem{  Technologies used: JavaScript , React.Js,  Node.js, Express.js ,MongoDB, Scrapy (web scraping).
+
+}
+\resumeItemListEnd
+\vspace{-3pt}
+
+\resumeSubHeadingListEnd
+
+
+
+%
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+\begin{itemize}[leftmargin=0.15in, label={}]
+  \item{
+        \textbf{Languages}{:  C/C++, Python, JavaScript, Dart
+} \\
+        \textbf{Technologies \& Tools}{:  React.js, Node.js, Express.js, MongoDB, Firebase, Flutter, Scrapy, REST API, Socket.io, Git/GitHub
+}\\
+        \textbf{Others}{:  Debugging, Problem solving, Data structure and algorithms} \\
+
+        }
+\end{itemize}
+\vspace{-13pt}
+
+\section{Certifications and Achievements}
+
+\resumeSubHeadingListStart
+\resumeItemListStart
+
+\resumeItem{Advanced javascript by CareerNinja  LearnTube }\href{https://drive.google.com/file/d/1OL9FthQ6EI7kPJp0o4GUz_7Ug13cQ27O/view}{\raisebox{-0.2\height}\ \textcolor{mypink1}{\underline{Certification}} }
+\resumeItem{Introduction to system design by CareerNinja  LearnTube  }\href{https://drive.google.com/file/d/14_eqhq1XTeqx9xmqLLqLawdrGM2KiCSq/view}{\raisebox{-0.2\height}\ \textcolor{mypink1}{\underline{Certification}} }
+\resumeItem{Solved 400+ DSA questions across leetcode and hackerrank  }\href{https://leetcode.com/u/hrajz/}{\raisebox{-0.2\height}\ \textcolor{mypink1}{\underline{Leetcode Profile}} }
+
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+\end{document}
