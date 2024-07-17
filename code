@@ -19,6 +19,11 @@
 \usepackage{fontawesome5}
 \usepackage{multicol}
 \usepackage[dvipsnames]{xcolor}
+\usepackage[
+top=2.5cm,
+bottom = -2.50cm,
+left=3cm,
+  right=2cm ]{geometry}
 \setlength{\multicolsep}{-3.0pt}
 \setlength{\columnsep}{-1pt}
 \input{glyphtounicode}
@@ -43,10 +48,11 @@
 \renewcommand{\footrulewidth}{0pt}
 
 % Adjust margins
-\addtolength{\oddsidemargin}{-0.6in}
-\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\oddsidemargin}{-0.8in}
+\addtolength{\evensidemargin}{-0.7in}
 \addtolength{\textwidth}{1.19in}
 \addtolength{\topmargin}{-.7in}
+% \addtolength{\bottommargin}{-.7in}
 \addtolength{\textheight}{0.3in}
 
 \urlstyle{same}
@@ -58,7 +64,7 @@
 
 % Sections formatting
 \titleformat{\section}{
-  \vspace{-4pt}\color{mypink1}\scshape\raggedright\large\bfseries
+  \vspace{-6pt}\color{mypink1}\scshape\raggedright\large\bfseries
 }{}{0em}{}[\color{mypink1}\titlerule \vspace{-5pt}]
 
 % Ensure that generate pdf is machine readable/ATS parsable
@@ -68,13 +74,13 @@
 % Custom commands
 \newcommand{\resumeItem}[1]{
   \item\small{
-    {#1 \vspace{-2pt}}
+    {#1 \vspace{-4pt}}
   }
 }
 
 \newcommand{\classesList}[4]{
     \item\small{
-        {#1 #2 #3 #4 \vspace{-2pt}}
+        {#1 #2 #3 #4 \vspace{-23t}}
   }
 }
 
@@ -160,7 +166,7 @@
 }
 \resumeItemListEnd
 \resumeSubHeadingListEnd
-\vspace{-17pt}
+\vspace{-18pt}
 
 
 
@@ -184,7 +190,7 @@
 \resumeItem{Technologies used:  Flutter, Dart, Firestore, Google Maps API, Payment API.
 }
 \resumeItemListEnd
-\vspace{-18pt}
+\vspace{-16pt}
 
 \resumeSubHeadingListEnd
 
