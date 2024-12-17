@@ -21,7 +21,7 @@
 \usepackage[dvipsnames]{xcolor}
 \usepackage[
 top=2.5cm,
-bottom = -2.50cm,
+bottom = -2.cm,
 left=3cm,
   right=2cm ]{geometry}
 \setlength{\multicolsep}{-3.0pt}
@@ -155,6 +155,13 @@ left=3cm,
 \section{Internship Experience}
 \resumeSubHeadingListStart
 
+\resumeSubheading{Whatbytes}{Sept 2024 - Present }
+{ SDE Intern | Remote
+}{}
+\resumeItemListStart
+\resumeItem{ Developed user-friendly interfaces for a USA-based project, ensuring smooth navigation and responsiveness across devices.
+}\vspace{-12pt}
+\resumeItemListEnd
 \resumeSubheading
 {Veritech Softwares}{May 2024 - June 2024 }
 { Web Developer Intern | Remote
@@ -172,33 +179,10 @@ left=3cm,
 
 %-----------PROJECTS-----------
 \section{Projects}
-
 \resumeSubHeadingListStart
-\resumeProjectHeading{\textbf{\vspace{20pt}Driving Lesson Booking System}}{  June 2024 - July 2024 }
+\resumeProjectHeading{\textbf{Multilingual Real-Time Chat Application \href{https://github.com/Hrajz/Multilingual-chat-app}{\raisebox{-0.2\height}\ \underline{Github}}}}{   Sept 2024 - Oct 2024  }
 
-{\vspace{-22pt}
-\textit{A Flutter mobile application enabling users to book driving lessons with driving instructors on an hourly basis, Users can register either as drivers (instructors) or customers (learners).}}
-\resumeItemListStart
-\resumeItem{\vspace{-7pt}Implemented user registration and authentication flow, allowing users to sign up as either drivers or customers.
-}
-\resumeItem{Integrated Google Maps API to facilitate location-based services and real-time tracking of lessons.
-}
-\resumeItem{Utilized Firebase Firestore for efficient data storage and retrieval, managing user profiles, bookings, and lesson details.
-}
-\resumeItem{ Implemented payment processing using API to handle secure transactions between customers and drivers.
-}
-\resumeItem{Technologies used:  Flutter, Dart, Firestore, Google Maps API, Payment API.
-}
-\resumeItemListEnd
-\vspace{-16pt}
-
-\resumeSubHeadingListEnd
-
-
-\resumeSubHeadingListStart
-\resumeProjectHeading{\textbf{Multilingual Real-Time Chat Application }}{   May 2024 - June 2024  }
-
-{\vspace{-10pt}\textit{A real-time chat application enabling users to communicate in different languages by automatically translating messages.}}
+{\vspace{-10pt}\text{A real-time chat application enabling users to communicate in different languages by automatically translating messages.}}
 
 \resumeItemListStart
 \resumeItem{\vspace{-7pt}Integrated Socket.io to facilitate real-time, bidirectional communication between users.
@@ -219,18 +203,37 @@ secure access.
 \resumeSubHeadingListEnd
 
 \resumeSubHeadingListStart
-\resumeProjectHeading{\textbf{Ingredient-Based Recipe Finder}}{   Feb 2024 - Mar 2024  }
+\resumeProjectHeading{\textbf{\vspace{20pt}D-achievements.ETH \href{https://github.com/Hrajz/Nft-Student-Reward}{\raisebox{-0.2\height}\ \underline{Github}}}}{  Aug 2024 - Aug 2024 }
 
-{\vspace{-10pt}\textit{An application that allows users to input available ingredients and displays all possible recipes using web scraping techniques to gather data from various cooking websites.}}
+{\vspace{-22pt}
+\text{ A decentralized application that issues NFTs to students for academic achievements, providing secure, transparent, and personalized recognition through blockchain.}}
 \resumeItemListStart
-\resumeItem{\vspace{-7pt} Utilized Scrapy.py for web scraping to collect and parse recipe data from multiple cooking websites.
+\resumeItem{\vspace{-7pt}Developed a decentralized platform to reward students with NFTs for academic achievements, featuring wallet authentication and NFT transfer.
+}
+\resumeItem{Implemented Features to view, fetch, and manage achievements tied to unique token IDs, ensuring secure access to data.
+}{\vspace{-12pt}
+\resumeItem{Integrated Web3 for blockchain interactions and optimized the UI for seamless user experience.
+}
+\resumeItem{Technologies used: Solidity, Etheriunm, Metamask, Web3.js, React .
+}
+\resumeItemListEnd
+\vspace{-16pt}
+
+\resumeSubHeadingListEnd
+
+\resumeSubHeadingListStart
+\resumeProjectHeading{\textbf{Ingredient-Based Recipe Finder \href{https://github.com/Hrajz/Recepie-Scrapper}{\raisebox{-0.2\height}\ \underline{Github}}}}{   Sept 2024 - Sept 2024  }
+
+{\vspace{-10pt}\text{An application that allows users to input available ingredients and displays all possible recipes using web scraping techniques to gather data from various cooking websites.}}
+\resumeItemListStart
+\resumeItem{\vspace{-7pt} Utilized cherrio for web scraping to collect and parse recipe data from multiple cooking websites.
 
 }
 \resumeItem{Developed a backend service using Node.js and Express.js to handle user inputs and manage web scraping tasks.
 }
 \resumeItem{Integrated error handling and data validation to ensure reliable and accurate recipe suggestions.
 }
-\resumeItem{  Technologies used: JavaScript , React.Js,  Node.js, Express.js ,MongoDB, Scrapy (web scraping).
+\resumeItem{  Technologies used: JavaScript , EJS,  Node.js, Express.js, cherrio (web scraping).
 
 }
 \resumeItemListEnd
@@ -245,9 +248,9 @@ secure access.
 \section{Technical Skills}
 \begin{itemize}[leftmargin=0.15in, label={}]
   \item{
-        \textbf{Languages}{:  C/C++, Python, JavaScript, Dart
+        \textbf{Languages}{:  C/C++, Python, JavaScript, Solidity
 } \\
-        \textbf{Technologies \& Tools}{:  React.js, Node.js, Express.js, MongoDB, Firebase, Flutter, Scrapy, REST API, Socket.io, Git/GitHub
+        \textbf{Technologies \& Tools}{:  Etherium, Web3, Smart Contract, React.js, Node.js, Express.js, MongoDB, SQL, Cherrio, REST API, Socket.io, Git/GitHub
 }\\
         \textbf{Others}{:  Debugging, Problem solving, Data structure and algorithms} \\
 
@@ -262,7 +265,7 @@ secure access.
 
 \resumeItem{Advanced javascript by CareerNinja  LearnTube }\href{https://drive.google.com/file/d/1OL9FthQ6EI7kPJp0o4GUz_7Ug13cQ27O/view}{\raisebox{-0.2\height}\ \textcolor{mypink1}{\underline{Certification}} }
 \resumeItem{Introduction to system design by CareerNinja  LearnTube  }\href{https://drive.google.com/file/d/14_eqhq1XTeqx9xmqLLqLawdrGM2KiCSq/view}{\raisebox{-0.2\height}\ \textcolor{mypink1}{\underline{Certification}} }
-\resumeItem{Solved 400+ DSA questions across leetcode and hackerrank  }\href{https://leetcode.com/u/hrajz/}{\raisebox{-0.2\height}\ \textcolor{mypink1}{\underline{Leetcode Profile}} }
+\resumeItem{Solved 500+ DSA questions across leetcode and hackerrank  }\href{https://leetcode.com/u/hrajz/}{\raisebox{-0.2\height}\ \textcolor{mypink1}{\underline{Leetcode Profile}} }
 
 \resumeItemListEnd
 
